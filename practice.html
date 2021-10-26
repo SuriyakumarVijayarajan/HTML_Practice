@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practice</title>
+</head>
+<body>
+    <fieldset>
+        <legend>Practice Html</legend>
+    <h1>This is heading</h1><br>
+    <b>Bold</b><br>
+    <i>Italic</i><br>
+    <tt>Typewriting Text</tt><br>
+    H<sub>2</sub>O <br>
+    5<sup>2</sup><br><br>
+    <ul type="square">
+        <li>Madurai</li>
+        <li>Trichy</li>
+        <li>Chennai</li>
+    </ul>
+
+    <ol type="A">
+        <li>Madurai</li>
+        <li>Trichy</li>
+        <li>Chennai</li>
+    </ol>
+
+
+    <table border="2" cellspacing="5px" cellpadding="5px">
+        <tr>
+            <th>S.No</th>
+            <th>Food Item</th>
+            <th>Quantity</th>
+        </tr>
+
+        <tr>
+            <td>1</td>
+            <td>Popcorn</td>
+            <td>2</td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>Pizza</td>
+            <td>1</td>
+        </tr>
+    </table>
+
+    <a href = "practice2.html" target="_blank"><img src="photo-1610878180933-123728745d22.jfif" width="100px" height="100px"></a>
+    <form action="practice3.html" method="get" target="_blank" >
+        <label>First Name</label>
+        <input type ="text" name="fn" id="fn" required placeholder="Enter your First Name" ><br>
+        <label>DOB</label>
+        <input type="date" value="2021-10-21" min="1996-01-01" max="2001-12-31"><br>
+        <label>Email ID</label>
+        <input type="email" name="email" id="email"><br>
+        <label>password</label>
+        <input type="password" name="password" id ="password"><br>
+        <button type="submit" name="submit" id ="submit">Submit</button>
+        <button type="reset" name="reset" id="reset">Reset</button><br><Br>
+        <input type="radio" name="radio" id="radio">Male
+        <input type="radio" name="radio" id="radio">Female<br>
+        <input type="textarea" name="textarea" id="textarea" placeholder="Enter your text here">
+
+
+    </form>
+    <br><br>
+    <select id ="due Time">
+        <option value=" "disabled>---Select time-----</option>
+        <option value="11:00:00">11 AM</option>
+        <option value="13:00:00">1 PM</option>
+        <option value="15:00:00">3 PM</option>
+    </select>
+
+    <label>Priority(*)</label>
+    <select id="priority" required>
+        <option value="L"selected>Low</option>
+        <option value="M">Medium</option>
+        <option value="H">High</option>
+    </select>
+
+    <br><br>
+    <label>Select Staion:</label>   
+    <input list="station">
+    <datalist id="station">
+
+        <option disabled>---Select---</option>
+        <option value="MAS">Chennai Central</option>
+        <option value="MDU">Madurai</option>
+        <option value="CGL">Chengalpattu</option>
+
+    </datalist>
+
+
+
+    </fieldset>
+
+
+
+</body>
+</html>

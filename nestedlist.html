@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nested List</title>
+</head>
+<body>
+    <fieldset>
+        <legend><h1>HTML Practice</h1></legend>
+    <h2>Example for Nested List</h2>
+    <ul>
+        <li>Breakfast</li>
+        <ul>
+            <li><input type="radio" name="Breakfast" id="Breakfast">Idly</li>
+            <li><input type="radio" name="Breakfast" id="Breakfast">Dosa</li>
+            <li><input type="radio" name="Breakfast" id="Breakfast">Poori</li>
+        </ul>
+        <li>Lunch</li>
+        <ul>
+            <li>Biriyani</li>
+            <li>Rice</li>
+            <li>Curd Rice</li>
+        </ul>
+        <li>Dinner</li>
+        <ul>
+            <li>Parotta</li>
+            <li>Chicken Rice</li>
+            <li>Chappathi</li>
+        </ul>
+    </ul>
+
+    <!-- Table Properties-->
+    <table>
+        <tr>
+            <th>S.No</th>
+            <th>Type of Break</th>
+            <th>Timing</th>
+        </tr>
+        <tr>
+            <td>1</td>
+            <td>Tea</td>
+            <td>11 AM</td>
+        </tr>
+        <tr>
+            <td>2</td>
+            <td>Lunch</td>
+            <td>1 PM</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>Tea</td>
+            <td>4 PM</td>
+        </tr>
+    </table>
+
+    <form method="get" action="https://www.chainsys.com/" target="_blank">
+        <label>UserName</label>
+        <input type="text" name="userName"id="userName"placeholder="Enter Username" size="5" ><br>
+        <label>Password</label>
+        <input type="password" name="password"id="password" maxlength="8"><br>
+        <input type="submit" value="search" name="submit"id="submit"> 
+        <textarea name="text" cols="20" rows="10">Enter Your Comment</textarea> 
+        <select name="drop" id="drop" size="2">
+            <option value="ms">Chennai Egmore</option>
+            <option value="mdu">Madurai</option>
+            <option value="tcj">Trichy</option>
+        </select>
+        <br><br>
+        <input type ="text" list="junctions">
+        <datalist id="junctions">
+            <option value="ms">Chennai Egmore</option>
+            <option value="mdu">Madurai</option>
+            <option value="tcj">Trichy</option>
+        </datalist>
+        <input type="radio" name="gender" id="gender">Male
+        <input type="radio" name="gender" id="gender">Female
+
+
+        <br><br>
+
+        <!--Checkboxes-->
+
+        <h2>Choose your favourite sports</h2>
+        <input type="checkbox" name="sports" id="sports" >Cricket
+        <input type="checkbox" name="sports"id="sports">Football
+        <input type="checkbox" name="sports" id="sports">Hockey
+        <br><br>
+
+
+        <input type="file" name="kumar"multiple><br>
+        <label for="email_id">Email</label>
+        <input type="email" name="email_id" id="email_id" required>
+        <label for="age">Age</label>
+        <input type="number" name="age" id="age" min="18" max="29">
+        <label for="dob">Date of Birth</label>
+        <input type="date" name="dob" id="dob" min="1990-01-01" max="2002-12-31">
+        <input type="range" min="1" max="99" step="10">
+        <input type="search">
+    </form>
+    </fieldset>
+</body>
+</html>
